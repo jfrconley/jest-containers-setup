@@ -3,6 +3,10 @@
     "@trendyol/jest-testcontainers": "^2.1.0"
   },
   "name": "jest-containers-setup",
+  "files": [
+    "dist",
+    "jest-preset.js"
+  ],
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
