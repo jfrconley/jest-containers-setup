@@ -5,12 +5,16 @@ describe('Verify Setup', () => {
     user: 'admin',
     password: 'coolpassword',
     database: 'admin',
-    host: (global as any).__TESTCONTAINERS_POSTGRES_IP__,
-    port: +(global as any).__TESTCONTAINERS_POSTGRES_PORT_5432__
+    host: process.env.__TESTCONTAINERS_POSTGRES_IP__,
+    port: +process.env.__TESTCONTAINERS_POSTGRES_PORT_5432__
   })
 
   beforeAll(async () => {
     await client.connect();
+  })
+
+  afterAll(async () => {
+    await client.end();
   })
 
   test("Check that table was setup", async () => {
