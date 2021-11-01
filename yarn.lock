@@ -536,10 +536,9 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@trendyol/jest-testcontainers@^2.1.0":
+"@trendyol/jest-testcontainers@git+https://github.com/jfrconley/jest-testcontainers":
   version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@trendyol/jest-testcontainers/-/jest-testcontainers-2.1.0.tgz#79b0c7d7243e0e76a41777f5635e40bb8cd8b738"
-  integrity sha512-GoMtXTceWLkfXidGP6Svz2fInCEA6/A6GsnFR77KOqtIj0IQA79yq1HP+tkfIoCZ2/tvLu0haRfuTPMyMcmpOw==
+  resolved "git+https://github.com/jfrconley/jest-testcontainers#6239f9de2f5b833aa4bb966057b7683b9b2823c8"
   dependencies:
     cwd "^0.10.0"
     jest-environment-node "^25.1.0"

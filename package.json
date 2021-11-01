@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@trendyol/jest-testcontainers": "^2.1.0"
+    "@trendyol/jest-testcontainers": "git+https://github.com/jfrconley/jest-testcontainers"
   },
   "name": "jest-containers-setup",
   "files": [
